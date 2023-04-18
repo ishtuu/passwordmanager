@@ -1,0 +1,65 @@
+.div {
+  display: flex;
+  margin: 20px;
+}
+.list-password-container {
+  list-style-type: none;
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.password-list-container {
+  width: 300px;
+  border-width: 2px;
+  border-radius: 10px;
+  border: 2px solid #c3caea;
+  display: flex;
+  height: 90px;
+  text-align: center;
+  justify-content: space-between;
+}
+.initial {
+  background-color: #10b981;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  text-align: center;
+  margin: 20px;
+}
+.initial-name {
+  color: white;
+  font-size: 10px;
+  margin: 0px;
+}
+.website {
+  color: white;
+  font-size: 10px;
+  margin-top: 10px;
+}
+.username {
+  color: white;
+  font-size: 10px;
+  margin-top: 0px;
+}
+.password {
+  color: white;
+  font-size: 10px;
+  margin-top: 0px;
+}
+button {
+  background-color: transparent;
+  border: none;
+}
+.delete {
+  width: 20px;
+  height: 20px;
+}
+.username-time-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.star {
+  width: 120px;
+}
